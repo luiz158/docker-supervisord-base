@@ -1,6 +1,6 @@
 # base - Base Image with supervisord
 
-FROM ubuntu
+FROM ubuntu:precise
 #phusion/baseimage:0.9.1
 MAINTAINER Luis Bianchin <luis@l433.com>
 
