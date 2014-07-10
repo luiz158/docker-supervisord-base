@@ -1,6 +1,6 @@
 # base - Base Image with supervisord
 
-FROM ubuntu
+FROM ubuntu:precise
 MAINTAINER David Zumbrunnen <zumbrunnen@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
