@@ -8,7 +8,6 @@ ENV LANG en_US.utf8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get -qq update
 RUN apt-get -yqq upgrade
 RUN apt-get -yqq install supervisor
